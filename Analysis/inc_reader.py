@@ -126,34 +126,3 @@ for i in range(len(paths)):
     d = np.transpose(mind)
     np.savetxt("min_inclinations_{0}.txt".format(paths[i]), d)
 
-for i in range(len(paths)):
-
-    incs = []
-    for c in combos2:
-
-        if c[0] == paths[i]:
-            print c
-            datafile = open("../{0}/DataFiles/data_seed{1}_both.txt".format(c[0], c[1]), "r")
-
-            ctr = 0
-
-            lines = datafile.readlines()
-
-            if len(lines) > 0:
-
-                for line in lines:
-
-                    parsed = line.split()
-                    
-                    if int(parsed[-2]) == c[2]:
-
-                        ctr += 1
-
-                        if ctr == 10:
-                            incs.append(float(parsed[3]))
-                            ctr = 0
-
-            datafile.close()
-    incs = np.array(incs)
-    d = np.transpose(incs)
-    np.savetxt("sampled_incs_{0}.txt".format(paths[i]), d)

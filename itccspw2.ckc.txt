@@ -1,0 +1,29 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Analysis/data_extractor.py
+#	new file:   Analysis/data_extractor_mutual_inc.py
+#	new file:   Analysis/data_extractor_sampled_e_and_inc.py
+#	modified:   Analysis/data_reader_0.2e.py
+#	new file:   Analysis/data_reader_a_vs_e.py
+#	new file:   Analysis/data_reader_incs.py
+#	new file:   Analysis/data_reader_massvary.py
+#	new file:   Analysis/data_reader_tides.py
+#	new file:   Analysis/inc_reader.py
+#	new file:   Analysis/min_d_search.py
+#	copied:     Analysis/data_extractor.py -> AnalysisOld/data_extractor.py
+#	new file:   AnalysisOld/data_reader_0.2e.py
+#	renamed:    Analysis/data_reader_4p.py -> AnalysisOld/data_reader_4p.py
+#	renamed:    Analysis/data_reader_5p.py -> AnalysisOld/data_reader_5p.py
+#	renamed:    Analysis/data_reader_avse.py -> AnalysisOld/data_reader_avse.py
+#	renamed:    Analysis/element_plot.py -> AnalysisOld/element_plot.py
+#	renamed:    Analysis/element_plot_close_all.py -> AnalysisOld/element_plot_close_all.py
+#	renamed:    Analysis/log_reader.py -> AnalysisOld/log_reader.py
+#	renamed:    Analysis/tide_search.py -> AnalysisOld/tide_search.py
+#	renamed:    Analysis/visual_test.py -> AnalysisOld/visual_test.py
+#
+

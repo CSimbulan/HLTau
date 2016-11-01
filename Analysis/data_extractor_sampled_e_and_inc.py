@@ -26,8 +26,8 @@ class Planet:
         self.vy = vy
         self.vz = vz
         
-##paths = ["4Res", "4NonRes", "5Res", "5NonRes"]
-paths = ["5MassVary", "5MassVary2", "5MassVary3"]
+paths = ["4Res", "4NonRes", "5Res", "5NonRes", "5MassVary", "5MassVary2", "5MassVary3"]
+
 exclude = [ ("4Res", 21), ("4Res", 24), ("4Res", 28), ("4Res", 33),
             ("4Res", 4), ("4Res", 51), ("4Res", 62), ("4Res", 64),
             ("4Res", 65), ("4Res", 66), ("4Res", 67), ("4Res", 74),

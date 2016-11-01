@@ -26,7 +26,7 @@ class stats:
 
     def getdata(self):
 
-        self.a, self.e, self.inc, self.ids = np.loadtxt("Text Files/{0}_orbital_elements_10002.txt".format(self.name), unpack = True)
+        self.a, self.e, self.inc, self.ids = np.loadtxt("Text Files/{0}_orbital_elements_1000.txt".format(self.name), unpack = True)
 #        self.e_avg  = np.loadtxt("Text Files/{0}_eccentricity_avg_1000.txt".format(self.name), unpack = True)
 #        self.e_samp = np.loadtxt("Text Files/{0}_eccentricity_extrasamples_1000.txt".format(self.name), unpack = True)
 

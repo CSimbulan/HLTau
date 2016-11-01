@@ -64,7 +64,7 @@ ax2.legend(fontsize = "xx-large")
 ax2.grid()
 ax2.set_xlabel("inc (deg)", fontsize = "x-large")
 ax2.set_ylabel("n (<inc)", fontsize = "x-large")
-ax2.tick_params(lablesize="large")
+ax2.tick_params(labelsize="large")
 
 
 

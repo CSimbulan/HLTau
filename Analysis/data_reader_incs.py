@@ -13,10 +13,10 @@ import matplotlib as mlab
 import scipy.stats as st
 
 mini5 = list(np.loadtxt("Text Files/min_inclinations_Tides.txt", unpack = True)*180./np.pi)
-mini4 = list(np.loadtxt("Text Files/min_inclinations_Tides.txt", unpack = True)*180./np.pi)
+mini4 = list(np.loadtxt("Text Files/min_inclinations_4ResTides.txt", unpack = True)*180./np.pi)
 
 mininr = list(np.loadtxt("Text Files/min_inclinations_5NonResTides.txt", unpack = True)*180./np.pi)
-mininr4 = list(np.loadtxt("Text Files/min_inclinations_5NonResTides.txt", unpack = True)*180./np.pi)
+mininr4 = list(np.loadtxt("Text Files/min_inclinations_4NonResTides.txt", unpack = True)*180./np.pi)
 
 sampi = list(np.loadtxt("Text Files/sampled_incs_Tides.txt", unpack = True)*180./np.pi)
 sampinr = list(np.loadtxt("Text Files/sampled_incs_5NonResTides.txt", unpack = True)*180./np.pi)
